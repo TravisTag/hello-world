@@ -25,7 +25,7 @@ Example:
 
 
 ### Broadcast
-As in opt-out 4, you will broadcast this message over UDP with a pre-determined port number.
+As in opt-out 4, you will broadcast this message over UDP with port number 1111.
 
 ## Server with database
 Your server should be listening for broadcast messages. Once it receives one, it should unwrap the JSON messsage and place the information into an SQLite database.
